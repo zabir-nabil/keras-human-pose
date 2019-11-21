@@ -1,6 +1,6 @@
 # keras-human-pose
 
-A simple wrapper to localize human joints from images/video frames for multiple subjects.
+A simple wrapper to localize human joints from images/video frames for **multiple subjects**.
 
 ### Download pre-trained weight
 
