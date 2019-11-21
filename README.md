@@ -51,13 +51,16 @@ subject_wise_loc = np.array(subject_wise_loc)
 
 ```
 
-processor.subject_points() returns an array with shape (body parts, subject, X coordinate, Y coordinate)
+* processor.subject_points() returns an array with shape (body parts, subject, X coordinate, Y coordinate)
 
-Body parts mapping => [nose, neck, Rsho, Relb, Rwri, Lsho, Lelb, Lwri, Rhip, Rkne, Rank, Lhip, Lkne, Lank, Leye, Reye, Lear, Rear, pt19]
+* Body parts mapping => [nose, neck, Rsho, Relb, Rwri, Lsho, Lelb, Lwri, Rhip, Rkne, Rank, Lhip, Lkne, Lank, Leye, Reye, Lear, Rear, pt19]
+
+* If a joint is missing for a subject the coordinates are (-1,-1)
+
 
 <p align="center">
   <img src="out.png"/>
 </p>
 
 ### References
-Most of codes are taken from https://github.com/michalfaber/keras_Realtime_Multi-Person_Pose_Estimation and simply re-written to simplify and extract the subject-wise data points.
+Most of codes are taken from https://github.com/michalfaber/keras_Realtime_Multi-Person_Pose_Estimation and simply re-written to simplify the pipeline and extract the subject-wise data points.
