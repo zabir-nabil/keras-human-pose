@@ -20,7 +20,7 @@ matplotlib==2.2.0
 nbconvert==5.5.0
 nbformat==4.4.0
 notebook==5.7.8
-numpy==1.16.4
+numpy==1.22.0
 opencv-python==4.1.0.25
 Pillow==6.1.0
 protobuf==3.8.0
